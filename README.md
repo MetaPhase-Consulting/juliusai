@@ -15,6 +15,8 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 - **Styling**: Tailwind CSS
 - **Routing**: React Router DOM
 - **Icons**: Lucide React
+- **Testing**: Vitest with React Testing Library
+- **Coverage**: v8 provider with 80%+ thresholds
 - **Linting**: ESLint with TypeScript support
 
 ## Prerequisites
@@ -54,6 +56,10 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run typecheck` - Run TypeScript type checking
+- `npm run test` - Run tests in watch mode
+- `npm run test:run` - Run tests once
+- `npm run test:coverage` - Run tests with coverage report
+- `npm run test:ui` - Open test UI interface
 
 ## Project Structure
 
