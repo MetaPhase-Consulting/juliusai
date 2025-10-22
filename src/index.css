@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply focus:outline-none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus,
+.sr-only:active {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+@keyframes sprayPaint {
+  0% {
+    opacity: 0;
+    filter: blur(20px) drop-shadow(0 0 10px rgba(255,255,255,0.3));
+    transform: scale(0.8) rotate(-2deg);
+  }
+  50% {
+    opacity: 0.7;
+    filter: blur(5px) drop-shadow(0 0 15px rgba(255,255,255,0.5));
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px) drop-shadow(0 0 10px rgba(255,255,255,0.3));
+    transform: scale(1) rotate(-1deg);
+  }
+}
+
+@keyframes letterSpray {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.5);
+    filter: blur(10px);
+  }
+  60% {
+    opacity: 0.8;
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.graffiti-text {
+  position: relative;
+  display: inline-block;
+}
+
+.graffiti-text::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0.4;
+  transform: translate(3px, 3px);
+}
+
+.graffiti-text::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: radial-gradient(circle at 20% 80%, rgba(255,255,255,0.05) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(255,255,255,0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -2;
+}
