@@ -50,7 +50,45 @@ JuliusAI was built for the MetaPhase Hackathon 2025, focusing on breaking throug
 
 ## Resources & Tools
 
-### Development
+### Development Setup
+
+#### Required Tools
+
+1. **Node.js and npm**
+   - Install Node.js version 18 or higher from [nodejs.org](https://nodejs.org/)
+   - npm comes bundled with Node.js
+   - Verify installation: `node --version` and `npm --version`
+
+2. **MetaPhase Enterprise ChatGPT**
+   - **Purpose**: Primary development tool for AI-assisted coding
+   - **Access**: Enterprise ChatGPT account through MetaPhase
+   - **Usage**: Essential for development workflow and code generation
+   - **Setup**: Contact MetaPhase for account access and configuration
+
+3. **Codex**
+   - **Web Interface**: Access through MetaPhase portal
+   - **CLI Tool**: Install and configure for command-line development
+   - **Configuration**: Follow MetaPhase setup instructions
+   - **Purpose**: Advanced code analysis and development assistance
+
+#### Recommended Tools (Optional)
+
+- **VS Code**
+  - Download from [code.visualstudio.com](https://code.visualstudio.com/)
+  - Recommended extensions:
+    - ES7+ React/Redux/React-Native snippets
+    - Tailwind CSS IntelliSense
+    - TypeScript Importer
+    - Prettier - Code formatter
+    - ESLint
+
+- **Cursor**
+  - Download from [cursor.sh](https://cursor.sh/)
+  - AI-powered code editor with built-in ChatGPT integration
+  - Excellent for React/TypeScript development
+  - Built-in terminal and Git integration
+
+### Development Stack
 - React + TypeScript + Vite
 - Tailwind CSS for styling
 - Lucide React for icons

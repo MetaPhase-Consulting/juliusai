@@ -19,8 +19,13 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 
 ## Prerequisites
 
-- Node.js (version 18 or higher)
-- npm or yarn package manager
+- **Node.js** (version 18 or higher)
+- **npm** package manager
+- **MetaPhase Enterprise ChatGPT** account (required for development)
+- **Codex** access (web and CLI)
+- **IDE** (optional but recommended): VS Code or Cursor
+
+> For detailed setup instructions, see [HACKATHON.md](./HACKATHON.md#development-setup)
 
 ## Installation
 
