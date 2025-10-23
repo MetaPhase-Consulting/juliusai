@@ -32,7 +32,13 @@ The fruit data contains the following key fields:
 ### USITC REST API
 - **Base URL**: `https://hts.usitc.gov/reststop/search`
 - **Fruit Search Endpoint**: `https://hts.usitc.gov/reststop/search?keyword=fruit`
+- **Export Endpoint**: `https://hts.usitc.gov/export`
 - **Documentation**: See `hts_external_user_guide.pdf` for complete API reference
+
+### Fruit HTS Code Range
+- **Applicable Codes**: 0801.00.0000 to 0814.99.9999
+- **Chapter 08**: Edible fruit and nuts; peel of citrus fruit or melons
+- **Coverage**: All fruit-related HTS classifications fall within this range
 
 ### API Usage
 The USITC API provides real-time access to HTS data and can be used to:
@@ -79,4 +85,5 @@ The USITC API provides real-time access to HTS data and can be used to:
 For technical questions about the data structure or API integration, refer to:
 - `hts_external_user_guide.pdf` - Official USITC documentation
 - [USITC HTS Website](https://hts.usitc.gov/) - Official HTS information
+- [USITC Export Endpoint](https://hts.usitc.gov/export) - Data export functionality
 - Challenge requirements in `/CHALLENGE.md` - Project specifications
