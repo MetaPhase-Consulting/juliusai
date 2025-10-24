@@ -63,6 +63,8 @@ src/
 3. **Testing**: Run `npm run dev` to test changes
 4. **Linting**: Run `npm run lint` to check code quality
 5. **Type Checking**: Run `npm run typecheck` for TypeScript validation
+6. **Unit Tests**: Run `npm run test:run` to execute tests
+7. **Coverage**: Run `npm run test:coverage` to check test coverage
 
 ## Key Technologies
 
@@ -72,6 +74,9 @@ src/
 - **Tailwind CSS**: Utility-first CSS framework
 - **React Router**: Client-side routing
 - **Lucide React**: Icon library
+- **Vitest**: Fast unit testing framework
+- **React Testing Library**: Component testing utilities
+- **v8 Coverage**: Code coverage reporting
 
 ## Best Practices
 
@@ -81,6 +86,10 @@ src/
 - Maintain consistent code formatting
 - Use meaningful component and variable names
 - Implement proper error boundaries where needed
+- Write comprehensive tests for all components
+- Maintain test coverage above 80%
+- Use React Testing Library for component testing
+- Follow accessibility guidelines in tests
 
 ## Common Issues
 
@@ -88,3 +97,6 @@ src/
 - **Styling**: Use Tailwind classes consistently
 - **Icons**: Import icons from lucide-react
 - **TypeScript**: Define proper types for all props and state
+- **Testing**: Ensure all components have proper test coverage
+- **Accessibility**: Use proper ARIA attributes and semantic HTML
+- **Test Queries**: Use specific selectors to avoid ambiguous element selection

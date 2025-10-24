@@ -2,14 +2,11 @@
 
 ## Theme: "Through The Wall"
 
-JuliusAI was built for the MetaPhase Hackathon 2025, focusing on breaking through barriers and delivering mission-critical solutions under pressure.
+JuliusAI was built for the MetaPhase Hackathon 2025, focusing on breaking through barriers and delivering mission-critical solutions under pressure. This hackathon challenges teams to extend the JuliusAI platform with innovative fruit import search functionality.
 
 ## Project Goals
 
-- [ ] **Placeholder**: Define specific hackathon objectives
-- [ ] **Placeholder**: Identify key deliverables
-- [ ] **Placeholder**: Set success metrics
-- [ ] **Placeholder**: Plan demo presentation
+See [CHALLENGE.md](../CHALLENGE.md) for complete challenge requirements and project objectives.
 
 ## Timeline & Milestones
 
@@ -101,18 +98,19 @@ JuliusAI was built for the MetaPhase Hackathon 2025, focusing on breaking throug
 
 ## Judging Criteria
 
-- [ ] **Placeholder**: Innovation and creativity
-- [ ] **Placeholder**: Technical implementation
-- [ ] **Placeholder**: User experience
-- [ ] **Placeholder**: Potential impact
-- [ ] **Placeholder**: Presentation quality
+- **Innovation & Creativity**: Unique approaches to fruit data visualization and search
+- **Technical Implementation**: Quality of code, API integration, and performance
+- **User Experience**: Intuitive interface design and accessibility compliance
+- **Mission Impact**: Potential to improve federal import processes
+- **Presentation Quality**: Clear demonstration of features and benefits
+- **Team Collaboration**: Effective use of AI tools and team coordination
 
 ## Post-Hackathon
 
-- [ ] **Placeholder**: Code cleanup and documentation
-- [ ] **Placeholder**: Deployment considerations
-- [ ] **Placeholder**: Future development plans
-- [ ] **Placeholder**: Lessons learned
+- **Share Lessons Learned**: Collaborate with colleagues on AI-assisted development insights
+- **Innovation Integration**: Bring innovative approaches back to client projects
+- **OCTO Team Engagement**: Discuss client challenges and potential solutions with OCTO leadership
+- **BRING US YOUR CHALLENGE**: Share real-world problems that need breakthrough solutions
 
 ---
 

@@ -15,6 +15,8 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 - **Styling**: Tailwind CSS
 - **Routing**: React Router DOM
 - **Icons**: Lucide React
+- **Testing**: Vitest with React Testing Library
+- **Coverage**: v8 provider with 80%+ thresholds
 - **Linting**: ESLint with TypeScript support
 
 ## Prerequisites
@@ -54,6 +56,10 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 - `npm run typecheck` - Run TypeScript type checking
+- `npm run test` - Run tests in watch mode
+- `npm run test:run` - Run tests once
+- `npm run test:coverage` - Run tests with coverage report
+- `npm run test:ui` - Open test UI interface
 
 ## Project Structure
 
@@ -75,9 +81,23 @@ src/
 
 ## Documentation
 
+### Core Documentation
+- [CHALLENGE.md](./CHALLENGE.md) - Complete challenge requirements and specifications
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Contribution guidelines
 - [HACKATHON.md](./HACKATHON.md) - Hackathon-specific information
 - [AGENTS.md](./AGENTS.md) - AI agent documentation
+
+### Hackathon Resources
+- [docs/](./docs/) - Presentation materials and templates
+  - [docs/README.md](./docs/README.md) - Documentation overview
+  - [MetaPhase Hackathon 2025.pptx](./docs/MetaPhase%20Hackathon%202025.pptx) - Official hackathon presentation
+  - [Hackathon Presentation Template.pptx](./docs/Hackathon%20Presentation%20Template.pptx) - Team presentation template
+
+### Data Sources
+- [data/](./data/) - Fruit import data and API documentation
+  - [data/README.md](./data/README.md) - Data sources and API integration guide
+  - HTS fruit data in JSON, CSV, and Excel formats
+  - USITC API documentation and user guide
 
 ## License
 

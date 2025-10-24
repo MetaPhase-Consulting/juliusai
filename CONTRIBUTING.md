@@ -20,7 +20,7 @@ Please be respectful and constructive in all interactions. We are committed to p
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/your-feature-name`
 3. Make your changes
-4. Run tests and linting: `npm run lint && npm run typecheck`
+4. Run tests and linting: `npm run lint && npm run typecheck && npm run test:run`
 5. Commit your changes with a clear message
 6. Push to your fork and create a Pull Request
 
@@ -31,6 +31,10 @@ Please be respectful and constructive in all interactions. We are committed to p
 - Use meaningful variable and function names
 - Add comments for complex logic
 - Keep components small and focused
+- Write tests for new components and features
+- Maintain test coverage above 80%
+- Use React Testing Library for component tests
+- Follow accessibility best practices
 
 ## Commit Message Conventions
 
@@ -51,6 +55,8 @@ Example: `feat: add user authentication component`
 2. Start development server: `npm run dev`
 3. Run linting: `npm run lint`
 4. Run type checking: `npm run typecheck`
+5. Run tests: `npm run test:run`
+6. Run tests with coverage: `npm run test:coverage`
 
 ## Pull Request Process
 
