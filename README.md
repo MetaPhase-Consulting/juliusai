@@ -1,5 +1,17 @@
 # JuliusAI
 
+[![JuliusAI](https://img.shields.io/badge/Julius-AI-black.svg)](https://juliusai.dev)
+[![Built by MetaPhase](https://img.shields.io/badge/Built%20by-MetaPhase-fb641f)](https://metaphase.tech)
+[![LinkedIn](https://img.shields.io/badge/Linked-In-0077b5)](https://www.linkedin.com/company/metaphase-consulting-llc/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f3b6880-fcfe-42fd-b79c-2dd81a131924/deploy-status)](https://app.netlify.com/projects/juliusai/deploys)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG%202.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+
 **MetaPhase Hackathon 2025: Through The Wall**
 
 A mission-focused platform delivering radical efficiency, accelerated innovation, and uncompromising delivery for federal agencies and mission-critical operations.
