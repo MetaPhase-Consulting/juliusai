@@ -81,9 +81,23 @@ src/
 
 ## Documentation
 
+### Core Documentation
+- [CHALLENGE.md](./CHALLENGE.md) - Complete challenge requirements and specifications
 - [CONTRIBUTING.md](./CONTRIBUTING.md) - Contribution guidelines
 - [HACKATHON.md](./HACKATHON.md) - Hackathon-specific information
 - [AGENTS.md](./AGENTS.md) - AI agent documentation
+
+### Hackathon Resources
+- [docs/](./docs/) - Presentation materials and templates
+  - [docs/README.md](./docs/README.md) - Documentation overview
+  - [MetaPhase Hackathon 2025.pptx](./docs/MetaPhase%20Hackathon%202025.pptx) - Official hackathon presentation
+  - [Hackathon Presentation Template.pptx](./docs/Hackathon%20Presentation%20Template.pptx) - Team presentation template
+
+### Data Sources
+- [data/](./data/) - Fruit import data and API documentation
+  - [data/README.md](./data/README.md) - Data sources and API integration guide
+  - HTS fruit data in JSON, CSV, and Excel formats
+  - USITC API documentation and user guide
 
 ## License
 
