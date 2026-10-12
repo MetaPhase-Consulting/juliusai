@@ -33,7 +33,7 @@ JuliusAI is designed to serve federal agencies and mission-critical operations w
 
 ## Prerequisites
 
-- **Node.js** (version 18 or higher)
+- **Node.js** 24 recommended (also supports 22.12+ on Node 22, or Node 26+)
 - **npm** package manager
 - **MetaPhase Enterprise ChatGPT** account (required for development)
 - **Codex** access (web and CLI)
