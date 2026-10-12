@@ -52,7 +52,7 @@ See [CHALLENGE.md](../CHALLENGE.md) for complete challenge requirements and proj
 #### Required Tools
 
 1. **Node.js and npm**
-   - Install Node.js version 18 or higher from [nodejs.org](https://nodejs.org/)
+   - Install Node.js 24 from [nodejs.org](https://nodejs.org/)
    - npm comes bundled with Node.js
    - Verify installation: `node --version` and `npm --version`
 

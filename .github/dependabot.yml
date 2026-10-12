@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 1
+    groups:
+      monthly-dependencies:
+        applies-to: version-updates
+        patterns:
+          - "*"
+    # Security updates remain separate and are not delayed by this schedule.
